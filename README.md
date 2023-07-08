@@ -30,7 +30,7 @@ This is the NodeJS/Express back end of a full stack blog site, which I built to 
 
 ## Initial Data
 This project uses a combination of static JSON article data (`article-content.js`) for the name/title/content and Mongo Data for the upvotes/comments. The data is joined on the article name. In the future, I may move all the data to Mongo and add pages to manage the blog articles.
-```json
+```js
 db.articles.insertMany([
     {
 	name: 'learn-react',
